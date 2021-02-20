@@ -1,6 +1,6 @@
 # Getting Started with apple-stock app
 
-This project displays Apple stock data from Augost 2020.
+This project displays Apple stock data from August 2020.
 
 ## Main Components 
 
