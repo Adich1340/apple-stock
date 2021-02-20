@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+}
+
+.timestamps-tab-container {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+button {
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-bottom: solid white;
+  padding: 15px;
+  background-color: transparent;
+  color: #ffffff;
+  outline: none;
+  font-size: calc(0.5px + 2vmin);
+  margin: 25px;
+}
+
+button:focus {
+  color: rgb(216, 203, 83);
+}
+
+.chart {
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.chart-container {
+  width: 100%;
+  height: 100%;
+}
