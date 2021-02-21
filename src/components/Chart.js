@@ -17,10 +17,10 @@ const CustomTooltip = ({ active, payload }) => {
     let range = Number(open - close).toFixed(2);
     return (
       <div>
-        <p className="label">{`Date: ${date}`}</p>
-        <p className="intro">{`Open: ${open}`}</p>
-        <p className="intro">{`Close: ${close}`}</p>
-        <p className="intro">{`Range: ${range}`}</p>
+        <p>{`Date: ${date}`}</p>
+        <p>{`Open: ${open}`}</p>
+        <p>{`Close: ${close}`}</p>
+        <p>{`Range: ${range}`}</p>
       </div>
     );
   }
